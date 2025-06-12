@@ -1,0 +1,23 @@
+The secretary of school Martha Georgiyivna starts her every working day with pretension to director:
+
+Here you, Ivan Ivanovych, already bought the program for scheduling to the deputy from educational part. And what do I have to do? I need to make the graphic of visitors according to Your needs in fact. And you didn’t buy the program for work planning for me.
+
+Please try to help secretary in her work. You have to organize the graphic of the visitors based on their wishes left in the secretary book.
+
+Receiving two visitors at the same time is prohibited. When meeting with one visitor is finished, the meeting with another visitor can start – they can meet at the cabinet door.
+
+Input
+The first line contains the number of visitors n (n ≤ 1000) who signed up for a meeting. There are two numbers T[1i] and T[2i] in each of the next n lines, separated with one space. The meeting with director starts at T[1i], and at T[2i] the meeting ends. The time is written in format hh:mm. It is known that n ≤ 1000, time is given during one day, and T[2i] ≥ T[1i] for all i.
+
+Output
+Print the maximum number of visitors, who will be able to have a meeting with director of school during the working day.
+
+Examples
+Input #1
+4
+09:10 13:05
+14:25 14:30
+14:20 15:15
+15:00 17:00
+Answer #1
+3
