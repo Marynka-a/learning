@@ -1,0 +1,15 @@
+In arithmetic expression you are allowed to use the number **1**, operations of addition, multiplication and parenthesis. What is the minimum number of ones you need to obtain the positive integer **n**?
+
+#### Input One integer n (1≤n≤5000).
+
+#### Output The required number of ones.
+
+Examples
+Input #1
+7
+Answer #1
+6
+Input #17
+119
+Answer #17
+15
