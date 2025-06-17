@@ -1,0 +1,15 @@
+n pirates fairly divided a treasure of m golden coins - everyone got their part according to their rank. The youngest pirate took a coins and each next pirate took one more coin than the previous one. The last was the captain, who got twice as much than planned. There were no more coins left after him.
+
+How many pirates including the captain were there, if we know a and m. Since the captain without a team is just a pirate, n > 1.
+
+Input
+Two positive integers a and m (1 ≤ a ≤ 100, m < 15150). Input values are correct.
+
+Output
+The number of pirates n.
+
+Examples
+Input #1
+5 25
+Answer #1
+3
