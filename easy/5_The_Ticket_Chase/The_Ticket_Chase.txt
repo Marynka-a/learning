@@ -1,0 +1,19 @@
+At a trolleybus stop, there are N passengers waiting to board, including Vanja and Peter. Vanja buys a ticket first, and when Peter glances at it, he notices the ticket number is a prime. Peter decides he also wants a ticket with a prime number. The tickets are issued sequentially, starting from the number on Vanja’s ticket, and there is only one roll of tickets with consecutive numbers.
+
+If the roll runs out before Peter gets a prime-numbered ticket, he’ll have to "stow away," meaning he'll ride without a ticket and face the risk of getting caught.
+
+Input
+The input consists of two numbers: the number of passengers, N, and the starting ticket number on Vanja’s ticket. The ticket number has up to 6 digits.
+
+Output
+Output the number of passengers Peter would need to let buy tickets ahead of him to get a prime-numbered ticket. If it's impossible for Peter to get a prime-numbered ticket before the roll ends, output −1.
+
+Examples
+Input #1
+5 11
+Answer #1
+1
+Input #4
+6 23
+Answer #4
+-1
